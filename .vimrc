@@ -1,3 +1,7 @@
+" Enable pathogen.
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 " Enable specific settings for specific files for both standard and
 " indentation 
 filetype plugin indent on
@@ -61,8 +65,6 @@ set cpo+=n
 set viminfo='20,<1000,s10,h
 " Show tabs and spaces at end of lines.
 set list listchars=tab:\ \ ,trail:·
-
-execute pathogen#infect()
 
 let g:syntastic_php_phpcs_args = ' --standard=Drupal --extensions=php,module,inc,install,test,profile,theme'
 
