@@ -1,5 +1,5 @@
 " Enable pathogen.
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 call pathogen#helptags()
 
 " Enable specific settings for specific files for both standard and
