@@ -1,6 +1,6 @@
-[submodule "pack/vdebug"]
-	path = pack/vdebug
-	url = git@github.com:joonty/vdebug.git
-[submodule "pack/syntastic"]
-	path = pack/syntastic
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
 	url = git@github.com:scrooloose/syntastic.git
+[submodule "bundle/vdebug"]
+	path = bundle/vdebug
+	url = git@github.com:joonty/vdebug.git

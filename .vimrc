@@ -1,6 +1,9 @@
 " Disable VIM compatibility mode
 set nocp
 
+" Enable pathogen.
+execute pathogen#infect()
+
 " Enable specific settings for specific files for both standard and
 " indentation 
 filetype plugin indent on
