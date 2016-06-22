@@ -1,14 +1,14 @@
+" Disable VIM compatibility mode
+set nocp
+
 " Enable pathogen.
-call pathogen#infect()
-call pathogen#helptags()
+execute pathogen#infect()
 
 " Enable specific settings for specific files for both standard and
 " indentation 
 filetype plugin indent on
 " Enable syntax highlighting
 syntax on
-" Disable VIM compatibility mode
-set nocp
 " Number of spaces that a <Tab> in the file counts for.
 set tabstop=2
 " Number of spaces to use for each step of (auto)indent. 
@@ -57,7 +57,7 @@ set textwidth=80
 set linebreak
 set wrapmargin=0
 " Set vim tmp-files to be stored in a common location
-set directory=~/.vimtmp
+set directory=~/.vim/.vimtmp
 " Show when the line wraps
 let &showbreak='  ^ '
 set cpo+=n
